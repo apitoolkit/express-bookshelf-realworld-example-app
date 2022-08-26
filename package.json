@@ -17,6 +17,7 @@
     "docker:start": "docker-compose -f docker-compose.yml -f docker-compose.development.yml up"
   },
   "dependencies": {
+    "apitoolkit-js": "file:../apitoolkit-js",
     "@hapi/boom": "10.0.0",
     "async-error-catcher": "1.2.0",
     "bcrypt": "5.0.1",
